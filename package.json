@@ -1,0 +1,23 @@
+{
+  "name": "bookmarklet-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "bookmarklet ./src/index.js ./dist/"
+  },
+  "engines": {},
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yanoshi-1009/bookmarklet-template"
+  },
+  "author": "y.idakko@gmail.com",
+  "license": "MIT",
+  "description": "This is my bookmarklet template.",
+  "devDependencies": {
+    "@cybozu/eslint-config": "22.0.0",
+    "bookmarklet": "3.0.0",
+    "eslint": "8.45.0",
+    "prettier": "3.0.0"
+  }
+}
